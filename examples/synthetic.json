@@ -1,0 +1,229 @@
+{
+  "races": [
+    {
+      "id": "2026:1",
+      "season": 2026,
+      "round": 1,
+      "name": "Synthetic GP 1",
+      "date": "2026-01-01",
+      "completed": true,
+      "location": "Synthetic circuit 1"
+    },
+    {
+      "id": "2026:2",
+      "season": 2026,
+      "round": 2,
+      "name": "Synthetic GP 2",
+      "date": "2026-02-01",
+      "completed": true,
+      "location": "Synthetic circuit 2"
+    },
+    {
+      "id": "2026:3",
+      "season": 2026,
+      "round": 3,
+      "name": "Synthetic GP 3",
+      "date": "2026-03-01",
+      "completed": true,
+      "location": "Synthetic circuit 3"
+    },
+    {
+      "id": "2026:4",
+      "season": 2026,
+      "round": 4,
+      "name": "Synthetic GP 4",
+      "date": "2026-04-01",
+      "completed": true,
+      "location": "Synthetic circuit 4"
+    },
+    {
+      "id": "2026:5",
+      "season": 2026,
+      "round": 5,
+      "name": "Synthetic GP 5",
+      "date": "2026-05-01",
+      "completed": false,
+      "location": "Synthetic circuit 5"
+    }
+  ],
+  "assets": [
+    {
+      "id": "2026:D",
+      "code": "SYN",
+      "name": "Synthetic Driver",
+      "kind": "driver",
+      "active": true
+    },
+    {
+      "id": "2026:C",
+      "code": "SYC",
+      "name": "Synthetic Constructor",
+      "kind": "constructor",
+      "active": true
+    },
+    {
+      "id": "2026:M",
+      "code": "MIS",
+      "name": "Missing Score Demo",
+      "kind": "driver",
+      "active": true
+    }
+  ],
+  "fantasy_scores": [
+    {
+      "asset_id": "2026:D",
+      "race_id": "2026:1",
+      "points": "99",
+      "status": ""
+    },
+    {
+      "asset_id": "2026:D",
+      "race_id": "2026:2",
+      "points": "-25",
+      "status": "DNF"
+    },
+    {
+      "asset_id": "2026:D",
+      "race_id": "2026:3",
+      "points": "18",
+      "status": ""
+    },
+    {
+      "asset_id": "2026:D",
+      "race_id": "2026:4",
+      "points": "20",
+      "status": ""
+    },
+    {
+      "asset_id": "2026:C",
+      "race_id": "2026:1",
+      "points": "99",
+      "status": ""
+    },
+    {
+      "asset_id": "2026:C",
+      "race_id": "2026:2",
+      "points": "-25",
+      "status": "DNF"
+    },
+    {
+      "asset_id": "2026:C",
+      "race_id": "2026:3",
+      "points": "18",
+      "status": ""
+    },
+    {
+      "asset_id": "2026:C",
+      "race_id": "2026:4",
+      "points": "20",
+      "status": ""
+    },
+    {
+      "asset_id": "2026:M",
+      "race_id": "2026:1",
+      "points": "99",
+      "status": ""
+    },
+    {
+      "asset_id": "2026:M",
+      "race_id": "2026:2",
+      "points": "-25",
+      "status": "DNF"
+    },
+    {
+      "asset_id": "2026:M",
+      "race_id": "2026:3",
+      "points": null,
+      "status": ""
+    },
+    {
+      "asset_id": "2026:M",
+      "race_id": "2026:4",
+      "points": "20",
+      "status": ""
+    }
+  ],
+  "prices": [
+    {
+      "asset_id": "2026:D",
+      "race_id": "2026:1",
+      "price": "8"
+    },
+    {
+      "asset_id": "2026:D",
+      "race_id": "2026:2",
+      "price": "8"
+    },
+    {
+      "asset_id": "2026:D",
+      "race_id": "2026:3",
+      "price": "8"
+    },
+    {
+      "asset_id": "2026:D",
+      "race_id": "2026:4",
+      "price": "8"
+    },
+    {
+      "asset_id": "2026:D",
+      "race_id": "2026:5",
+      "price": "8"
+    },
+    {
+      "asset_id": "2026:C",
+      "race_id": "2026:1",
+      "price": "20"
+    },
+    {
+      "asset_id": "2026:C",
+      "race_id": "2026:2",
+      "price": "20"
+    },
+    {
+      "asset_id": "2026:C",
+      "race_id": "2026:3",
+      "price": "20"
+    },
+    {
+      "asset_id": "2026:C",
+      "race_id": "2026:4",
+      "price": "20"
+    },
+    {
+      "asset_id": "2026:C",
+      "race_id": "2026:5",
+      "price": "20"
+    },
+    {
+      "asset_id": "2026:M",
+      "race_id": "2026:1",
+      "price": "8"
+    },
+    {
+      "asset_id": "2026:M",
+      "race_id": "2026:2",
+      "price": "8"
+    },
+    {
+      "asset_id": "2026:M",
+      "race_id": "2026:3",
+      "price": "8"
+    },
+    {
+      "asset_id": "2026:M",
+      "race_id": "2026:4",
+      "price": "8"
+    },
+    {
+      "asset_id": "2026:M",
+      "race_id": "2026:5",
+      "price": "8"
+    }
+  ],
+  "price_changes": [],
+  "source": "SYNTHETIC DEMO ONLY \u2014 these are not real F1 assets or results",
+  "fetched_at": "2026-05-01T00:00:00+00:00",
+  "warnings": [
+    "Fabricated demonstration data. Never use these figures for real team decisions."
+  ]
+}

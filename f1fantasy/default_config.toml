@@ -1,0 +1,39 @@
+# Inferred model, NOT an official specification. Prices and deltas are in $M.
+[pricing]
+thresholds = ["0.605", "0.900", "1.195"]
+tier_cutoff = "18.5"
+low_price_changes = ["-0.6", "-0.2", "0.2", "0.6"]
+high_price_changes = ["-0.3", "-0.1", "0.1", "0.3"]
+minimum_price = "3.0"
+# -1 = no AvgPPM rounding (the requested initialization).
+# Set to 3 to test the community's three-decimal rounding hypothesis.
+ppm_decimals = -1
+rounding = "half_up" # half_up or half_even, used only if ppm_decimals >= 0
+score_step = "1" # minimum attainable score increment
+boundary_tolerance = "0.005" # AvgPPM units, reporting only
+
+[analysis]
+conservative_score = "0"
+locked_threshold = "5"
+scenarios = ["-10", "-5", "0", "5", "10", "15", "20"]
+stress_scenarios = ["-10", "-5", "0", "5"]
+
+[opportunity]
+drop_reference = "5"
+drop_scale = "25"
+safety_scale = "40"
+max_rise_reference = "0.6"
+
+[opportunity.weights]
+dropping = "20"
+retained = "15"
+safety = "35"
+magnitude = "10"
+robustness = "20"
+
+[online]
+base_url = "https://fantasy.formula1.com"
+schedule_path = "/feeds/schedule/raceday_en.json"
+drivers_path = "/feeds/drivers/{round}_en.json"
+cache_ttl_seconds = 3600
+timeout_seconds = 20

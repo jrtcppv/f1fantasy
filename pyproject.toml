@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "f1fantasy-rollover"
+version = "0.1.0"
+description = "Find F1 Fantasy price appreciation already banked in retained scores"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+f1fantasy = "f1fantasy.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["f1fantasy*"]
+
+[tool.setuptools.package-data]
+f1fantasy = ["*.toml"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+

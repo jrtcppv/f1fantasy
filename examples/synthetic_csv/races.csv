@@ -1,0 +1,6 @@
+id,season,round,name,date,completed,location
+2026:1,2026,1,Synthetic GP 1,2026-01-01,True,Synthetic circuit 1
+2026:2,2026,2,Synthetic GP 2,2026-02-01,True,Synthetic circuit 2
+2026:3,2026,3,Synthetic GP 3,2026-03-01,True,Synthetic circuit 3
+2026:4,2026,4,Synthetic GP 4,2026-04-01,True,Synthetic circuit 4
+2026:5,2026,5,Synthetic GP 5,2026-05-01,False,Synthetic circuit 5

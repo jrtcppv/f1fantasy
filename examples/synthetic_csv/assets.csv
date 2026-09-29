@@ -1,0 +1,4 @@
+id,code,name,kind,active
+2026:D,SYN,Synthetic Driver,driver,True
+2026:C,SYC,Synthetic Constructor,constructor,True
+2026:M,MIS,Missing Score Demo,driver,True
